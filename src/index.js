@@ -5,6 +5,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./About";
 ReactDOM.render(
   <React.StrictMode>
+    <p>hello world</p>
     <HashRouter>
       <Routes>
         <Route path="/" element={<App/>} />
